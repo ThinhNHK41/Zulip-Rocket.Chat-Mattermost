@@ -31,3 +31,9 @@
   - Việc triển khai người dùng khách có quyền hạn chế đã được ổn định
   - Đã thêm module để tích hợp với ReviewBoard
   - Tích hợp hệ thống xác thực được cung cấp với Azure Active Directory.
+
+## Tài liệu tham khảo:
+https://blog.desdelinux.net/vi/zulip-una-excelente-alternativa-de-codigo-abierto-a-slack/ <br>
+https://viblo.asia/p/zulip-powerful-group-chat-maGK78oeZj2
+<br>
+https://www.scaleway.com/en/docs/tutorials/zulip/
