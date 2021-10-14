@@ -96,3 +96,8 @@
 - Telegram có dịch vụ đám mây lưu trữ tin nhắn, ảnh, video và tài liệu. Bạn có thể truy cập dữ liệu của mình từ bất kỳ thiết bị nào mọi lúc mà không cần phải dựa vào bản sao lưu của bên thứ ba.
 - Tất cả nội dung media trong cuộc trò chuyện thông thường sẽ được lưu trong bộ nhớ đám mây. Nhưng các cuộc trò chuyện bị mật sẽ không có sẵn trên đám mây, vì một số lý do riêng tư.
 - Tuy nhiên, hãy nhớ rằng Telegram chỉ có giới hạn upload 1,5GB cho mỗi file.
+
+## Tài liệu tham khảo
+https://quantrimang.com/discord-la-gi-va-cach-su-dung-no-nhu-the-nao-141132#:~:text=Discord%20l%C3%A0%20h%E1%BB%87%20th%E1%BB%91ng%20tr%C3%B2,%C4%91%C3%A3%20th%C3%A0nh%20l%E1%BA%ADp%20%E1%BB%9F%20%C4%91%C3%A2y.
+<br>
+https://quantrimang.com/8-ly-do-telegram-la-ung-dung-nhan-tin-duy-nhat-ban-can-147943
