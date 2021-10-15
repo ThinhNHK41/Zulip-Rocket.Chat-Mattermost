@@ -23,7 +23,30 @@
 	- Điều này sẽ giúp ích khi giao tiếp trò chuyện với nhau mà không bị hạn chế. Một ưu điểm nữa của Discord là chất lượng giọng nói tốt hơn so với trong game, không bị mất giọng và giao tiếp rõ ràng hơn.
 	- Discord cũng có một vài kênh trò chuyện văn bản cũng như tin nhắn cá nhân giữa người dùng. Điều này rất tuyệt khi bạn không thể hoạt không muốn sử dụng các kênh giao tiếp bằng giọng nói để trò chuyện.
 
-### d. Một số trải nghiệm hữu ích khi sử dụng Discord
+### d. Discord Bot
+- Discord cho phép người dung tự phát triển các bots hỗ trợ cho các server discord
+- Người tạo bot sẽ tự thuê host và tạo ra bot sau đó đẩy lên nền tảng của discord
+- Người quản lý server có thể tìm bot discord thông qua trang web top.gg hoặc vào thẳng trang web của bot đó ( nếu có ) sau đso thêm bot đó vào server do họ quản lý
+- Bot discord được chia làm nhiều loại:
+	- Bot quản lý: mee6
+	- Bot nhạc: rhytm
+	- Bot game
+	- …
+- Ví dụ về bot discord:
+
+![image](https://user-images.githubusercontent.com/92511177/137465594-2315217d-b1de-43d0-8482-d4b962d66ede.png)
+<br>Người tạo ra bot discord có thể thu lợi nhuận từ các bản premium của bot đó, bản premium của 1 bot discord là quyền truy cập vào các chức năng mà chỉ có phiên bản premium của discord bot mới có.
+
+### e. Discord Server Nitro Boost
+
+![image](https://user-images.githubusercontent.com/92511177/137465702-fea5dcce-9148-41b9-a575-4e97cf0ab553.png)
+- Đây là tính năng khi người dùng sở hữu nitro boost, người dùng sẽ được tặng 2 nâng cấp máy chủ
+- Máy chủ sẽ có 3 nâng cấp, với mỗi cấp sẽ cần một lượng lớn điểm nâng cấp nhất định, tính năng của máy chủ cũng sẽ được mở rộng dựa theo cấp độ nâng cấp của máy chủ đó.
+
+### f. Role Discord
+- Với mỗi server, người quản lý có thể tạo ra các vai trò (role) cho các thành viên và phân quyền cho vai trò đó
+
+### g. Một số trải nghiệm hữu ích khi sử dụng Discord
 - Chia sẻ màn hình của mình với bất kỳ ai trong kênh thoại
 - Nghe nhạc với bạn bè
 - Trò chuyện bằng Video
