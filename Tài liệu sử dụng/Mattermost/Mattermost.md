@@ -1,6 +1,6 @@
 # **Mattermost**
->
-> **a. Chế độ Admin**
+
+ **a. Chế độ Admin**
 >
 > \- Sau khi triển khai, cài đặt và cấu hình xong Mattermost thì bạn
 > truy cập vào đường dẫn: IP_Address:8065 thì bạn sẽ có thể đăng nhập
@@ -304,8 +304,7 @@ của Admin
 >
 > ![](.//media/image50.png)
 
--   Ngoài ra còn các mục khác có thể tìm hiểu thêm như: Compliance,
-    > Experimental.
+-   Ngoài ra còn các mục khác có thể tìm hiểu thêm như: Compliance, Experimental.
 
 **b. Chế độ User (Admin)**
 
