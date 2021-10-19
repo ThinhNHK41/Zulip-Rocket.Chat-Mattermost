@@ -1,4 +1,4 @@
-1.  **Zulip**
+# Zulip
 
 > \- Sau khi triển khai, cài đặt và cấu hình xong Zulip thì ta có thể
 > truy cập vào đường dẫn zulip.lan (Domain name của server Zulip khi cài
@@ -110,16 +110,13 @@
 >
 > \- Ở phần cài đặt này, ta có một số chức năng để tác động lên nhóm
 > Chat này như:
-
--   Manage stream (quản lý các stream trong cuộc hội thoại như ta đã tìm
-    > hiểu ở trên)
+> 
+  - Manage stream (quản lý các stream trong cuộc hội thoại như ta đã tìm hiểu ở trên)
 
 > ![](.//media/image19.png)
 > 
 
--   Settings: Các cài đặt với nhóm Chat như quản lý tài khoản của mình,
-    > thiết lập ngôn ngữ, thông báo, Bot của mình, thiết lập cảnh báo,
-    > tải lên file, Muted Topic hay User
+  - Settings: Các cài đặt với nhóm Chat như quản lý tài khoản của mình, thiết lập ngôn ngữ, thông báo, Bot của mình, thiết lập cảnh báo, tải lên file, Muted Topic hay User
 
 ![](.//media/image20.png)
 
@@ -130,11 +127,7 @@
 ![](.//media/image22.png)
 
 
--   Manage Organization: Quản lý các vấn đề liên quan đến tổ chức/nhóm
-    > chat của mình như thông tin nhóm, cài đặt nhóm, Phân quyền của các
-    > thành viên trong nhóm, Custom Emoji, Nhóm người dùng, Các phương
-    > pháp xác thực, Các vấn đề liên quan đến người dùng, Ghi log, Xuất
-    > cơ sở dữ liệu,\...
+  - Manage Organization: Quản lý các vấn đề liên quan đến tổ chức/nhóm chat của mình như thông tin nhóm, cài đặt nhóm, Phân quyền của các thành viên trong nhóm, Custom Emoji, Nhóm người dùng, Các phương pháp xác thực, Các vấn đề liên quan đến người dùng, Ghi log, Xuất cơ sở dữ liệu,...
 
 > ![](.//media/image23.png)
 > 
@@ -151,9 +144,7 @@
 > ![](.//media/image27.png)
 > 
 
--   Usage Statics: Thể hiện thống kê các chỉ số liên quan đến nhóm Chat
-    > của mình như Số lượng tin nhắn được gửi, Số lượng user online, Số
-    > lượng tin nhắn được đọc,\...
+  - Usage Statics: Thể hiện thống kê các chỉ số liên quan đến nhóm Chat của mình như Số lượng tin nhắn được gửi, Số lượng user online, Số lượng tin nhắn được đọc,\...
 
 > ![](.//media/image28.png)
 > 
@@ -164,15 +155,12 @@
 > ![](.//media/image30.png)
 > 
 
--   Đặc biệt, Zulip còn hỗ trợ Integration giúp cho người dùng có thể
-    > được giúp đỡ khi muốn quản lý Zulip với các ứng dụng Theo dõi,
-    > trao đổi, quản lý, marketing,\...
+  - Đặc biệt, Zulip còn hỗ trợ Integration giúp cho người dùng có thể được giúp đỡ khi muốn quản lý Zulip với các ứng dụng Theo dõi, trao đổi, quản lý, marketing,\...
 
 > ![](.//media/image31.png)
 > 
 
--   Ngoài ra, Zulip còn cung cấp các tùy chọn về ứng dụng desktop &
-    > mobile hoặc thông tin chi tiết về Zulip
+  - Ngoài ra, Zulip còn cung cấp các tùy chọn về ứng dụng desktop & mobile hoặc thông tin chi tiết về Zulip
 
 > ![](.//media/image32.png)
 > 
