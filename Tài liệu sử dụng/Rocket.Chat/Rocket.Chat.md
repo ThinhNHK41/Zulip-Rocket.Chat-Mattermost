@@ -1,4 +1,4 @@
-> **Rocket.Chat**
+ # **Rocket.Chat**
 >
 > \- Sau khi cài đặt thành công ta hãy truy cập vào Rocket.Chat bằng:
 > IP_Address:3000 (hoặc tên miền của server Rocket.chat của mình, trong
