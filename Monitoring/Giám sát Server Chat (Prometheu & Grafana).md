@@ -1,4 +1,4 @@
-1.  **Mô hình mạng**
+## 1.  **Mô hình mạng**
 
 > ![](.//media/image1.png)
 > 
@@ -6,9 +6,9 @@
 > \- Ta sẽ sử dụng Prometheus và Grafana để giám sát các server chat
 > (Zulip, Rocket.Chat, Mattermost).
 
-2.  **Cài đặt Prometheus và Grafana trên CentOS 7**
+## 2.  **Cài đặt Prometheus và Grafana trên CentOS 7**
 
-> **a. Cấu hình chung cho hệ thống trước khi cài đặt Prometheus**
+### **a. Cấu hình chung cho hệ thống trước khi cài đặt Prometheus**
 >
 > \- Update Linux, sync NTP Linux, disable selinux:
 >
@@ -60,8 +60,8 @@
 
 Mở các port sau:
 
--A INPUT -p tcp -m state \--state NEW -m tcp \--dport 22 -j ACCEPT
-
+> -A INPUT -p tcp -m state \--state NEW -m tcp \--dport 22 -j ACCEPT
+>
 > -A INPUT -p tcp -m state \--state NEW -m tcp \--dport 3000 -j ACCEPT
 >
 > -A INPUT -p tcp -m state \--state NEW -m tcp \--dport 9090 -j ACCEPT
@@ -85,7 +85,7 @@ Mở các port sau:
 > ![](.//media/image11.png)
 > 
 >
-> **b. Cài đặt Prometheus bằng Package**
+### **b. Cài đặt Prometheus bằng Package**
 >
 > \- Cài đặt Prometheus
 
@@ -175,22 +175,22 @@ Mở các port sau:
 > ![](.//media/image18.png)
 > 
 
-**c. Cài đặt Grafana**
+### **c. Cài đặt Grafana**
 
 **- Bước 1:** Tải Grafana
 
-wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
+> wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
 
 ![](.//media/image19.png)
 
-> **- Bước 2:** Cài đặt Grafana
+**- Bước 2:** Cài đặt Grafana
 >
 > sudo yum localinstall grafana-7.4.3-1.x86_64.rpm
 >
 > ![](.//media/image20.png)
 > 
 >
-> **- Bước 3:** Khởi động dịch vụ
+**- Bước 3:** Khởi động dịch vụ
 >
 > sudo service grafana-server start
 >
@@ -209,7 +209,7 @@ wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
 >
 > ![](.//media/image22.png)
 >
-> \- **Bước 4:** Kết nối Prometheus với Grafana
+- **Bước 4:** Kết nối Prometheus với Grafana
 
 -   Truy cập vào Grafana: http://IP:3000
 
@@ -234,9 +234,9 @@ wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
 > ![](.//media/image26.png)
 > 
 
-3.  **Giám sát các Server Ubuntu (Zulip/Rocket.Chat/Mattermost)**
+## 3.  **Giám sát các Server Ubuntu (Zulip/Rocket.Chat/Mattermost)**
 
-> **- Bước 1:** Download node_exporter trên các Server cần giám sát
+**- Bước 1:** Download node_exporter trên các Server cần giám sát
 >
 > wget
 > https://github.com/prometheus/node_exporter/releases/download/v1.2.2/node_exporter-1.2.2.linux-amd64.tar.gz
@@ -244,7 +244,7 @@ wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
 > ![](.//media/image27.png)
 > 
 >
-> **- Bước 2:** Giải nén source code và copy đến đường dẫn sau
+**- Bước 2:** Giải nén source code và copy đến đường dẫn sau
 > /usr/local/node_exporter
 >
 > tar -xvzf node_exporter-1.2.2.linux-amd64.tar.gz
@@ -257,7 +257,7 @@ wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
 > ![](.//media/image28.png)
 > 
 >
-> **- Bước 3:** Tạo service trong systemd cho node_exporter
+**- Bước 3:** Tạo service trong systemd cho node_exporter
 >
 > gedit /etc/systemd/system/node_exporter.service
 >
@@ -284,7 +284,7 @@ wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
 > ![](.//media/image29.png)
 > 
 >
-> **- Bước 4:** Restart và enable service
+**- Bước 4:** Restart và enable service
 >
 > systemctl daemon-reload
 >
@@ -295,7 +295,7 @@ wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
 > ![](.//media/image30.png)
 > 
 >
-> **- Bước 5:** Truy cập vào node_exporter để kiểm tra (Trên Prometheus
+**- Bước 5:** Truy cập vào node_exporter để kiểm tra (Trên Prometheus
 > Server)
 >
 > ![](.//media/image31.png)
@@ -306,7 +306,7 @@ wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
 > ![](.//media/image33.png)
 > 
 >
-> **- Bước 6:** Tạo job trong prometheus để giám sát server với nội dung
+**- Bước 6:** Tạo job trong prometheus để giám sát server với nội dung
 > sau
 >
 > gedit /usr/local/prometheus/prometheus.yml
@@ -352,14 +352,14 @@ wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
 > ![](.//media/image34.png)
 > 
 >
-> **- Bước 7:** Restart lại prometheus service và kiểm tra kết quả
+**- Bước 7:** Restart lại prometheus service và kiểm tra kết quả
 >
 > systemctl restart prometheus
 >
 > ![](.//media/image35.png)
 > 
 >
-> **- Bước 8:** Đăng nhập vào Grafana để tạo Dashboard giám sát
+**- Bước 8:** Đăng nhập vào Grafana để tạo Dashboard giám sát
 >
 > Zulip
 >
@@ -383,7 +383,7 @@ wget https://dl.grafana.com/oss/release/grafana-7.4.3-1.x86_64.rpm
 > ![](.//media/image41.png)
 > 
 
-**4. Cấu hình Alert trong Prometheus gửi tin nhắn qua Gmail**
+## **4. Cấu hình Alert trong Prometheus gửi tin nhắn qua Gmail**
 
 **- Bước 1:** Đầu tiên ta sẽ download source cài đặt vào trong server
 
